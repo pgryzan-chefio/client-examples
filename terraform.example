@@ -16,6 +16,15 @@ azure               = {
     region          = ""
 }
 
+//  Fill this information in to use the vSphere platform. (Required for the vSphere Example)
+vsphere {
+    user                    = ""
+    password                = ""
+    server                  = ""
+    allow_unverified_ssl    = true
+    datacenter_name         = ""
+}
+
 //  Used to access the Windows Server 2016 instance in Azure. (Required for the Azure Example)
 //  Azure will not allow you to use the "Admin" or "Administrator" user.
 windows             = {
